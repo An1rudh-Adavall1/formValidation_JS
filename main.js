@@ -12,6 +12,7 @@ function validName() {
     name.classList.remove("is-invalid");
   }
 }
+
 function validZip() {
   const zip = document.getElementById("zip");
   const res = /^[0-9]{5}$/;
@@ -21,6 +22,7 @@ function validZip() {
     zip.classList.remove("is-invalid");
   }
 }
+
 function validEmail() {
   const email = document.getElementById("email");
   const res = /^([a-zA-Z0-9_\.\-]+)@([a-zA-Z0-9_\.\-]+)\.([a-zA-Z]{2,5})$/;
@@ -30,6 +32,7 @@ function validEmail() {
     email.classList.remove("is-invalid");
   }
 }
+
 function validPhone() {
   const phone = document.getElementById("phone");
   const res = /^\+49+[0-9]{11}$/;
